@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+[[mods]]
+modId="swdheftpywaed"
+version="${file.jarVersion}"
+displayName="Sorry, we don't have enough funds to provide you an ender dragon"
+logoFile="swdheftpywaed.png"
+credits="对不起，我们没有充足的资金为您提供一只末影龙(Sorry, We Don't Have Enough Funds To Provide You With An Ender Dragon)"
+authors="Love, Goulixiaoji of Abstruck"
+description='''
+    对不起，我们没有充足的资金为您提供一只末影龙(Sorry, We Don't Have Enough Funds To Provide You With An Ender Dragon)
+'''
+
+[[dependencies.swdheftpywaed]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.swdheftpywaed]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
